@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class MessageController {
 
-    @GetMapping
+    @GetMapping("/message")
     public String getMessage(){
         return "Hello Mysore- Cultural City of Karnataka";
     }
